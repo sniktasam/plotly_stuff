@@ -6,11 +6,11 @@ import time
 trace1 = Scatter(
         x=[],
         y=[],
-        stream=dict(token='8zsr23tyti')
+        stream=dict(token='stream_token')
     )
 data = Data([trace1])
 py.plot(data)
-s = py.Stream('8zsr23tyti')
+s = py.Stream('stream_token')
 
 
 def sleepcycle():
